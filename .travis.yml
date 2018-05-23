@@ -22,7 +22,7 @@ matrix:
   include:
     - xcode_scheme: "iCepa-iOS"
       xcode_sdk: iphonesimulator
-      osx_image: xcode8.1
+      osx_image: xcode9
       env:
         - XCODE_ACTION=build
         - XCODE_DESTINATION="platform=iOS Simulator,name=iPhone 7"
